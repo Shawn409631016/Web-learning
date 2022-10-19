@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style: none;
+}
+
+// .hero-img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     background: url(https://i.pinimg.com/564x/b4/23/67/b4236791c54c9a485c59434461f0750d.jpg);
+//     background-size: cover;
+//     background-position-x: 20%;
+//     background-position-y: 20%;
+//     width: 100%;
+//     height: 100vh;
+//     z-index: -1;
+//     animation: introLoad 2s forwards;
+//     //overflow: hidden;
+// }
+.site-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    background-color: #000;
+    opacity: 75%;
+    z-index: 999;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    .logo {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+svg {
+    width: 1.125rem;
+}
+
+// nav {
+//     display: none;
+// }

@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.site-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: #000;
+  opacity: 75%;
+  z-index: 999;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+}
+.header-nav .logo {
+  color: white;
+  font-weight: bold;
+}
+
+svg {
+  width: 1.125rem;
+}/*# sourceMappingURL=main.css.map */
