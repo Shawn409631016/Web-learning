@@ -1,48 +1,46 @@
 body {
-    background-color: #ED7E0E;
+	background-color: #ed7e0e;
 }
-
 
 .pause-button {
-    margin-top: 1rem;
-    margin-left: 0.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
+	margin-top: 1rem;
+	margin-left: 0.5rem;
+	width: 2.5rem;
+	height: 2.5rem;
 }
 .pause-button path {
-    fill: white;
-    opacity: 0.7;
+	fill: white;
+	opacity: 0.7;
 }
 
 .main {
-    margin-top: 4.5rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+	margin-top: 4.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .bread {
-    background: url(https://d15us4ptiqhpje.cloudfront.net/v54/svg/b74c4551ded8f8eedb8887db5a21003b13d162a7.svg) center center / contain no-repeat;
-    width: 11rem;
-    height: 31rem;
+	width: 11rem;
+	height: 31rem;
 }
 .cirle-container {
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 90px;
-    background-color: rgba(0, 0, 0, 0.2);
+	width: 5rem;
+	height: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 90px;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .learn {
-    width: 4.25rem;
-    height: 4.25rem;
+	width: 4.25rem;
+	height: 4.25rem;
 }
 
 .arrow-left path {
-    fill: url(#gradient);
+	fill: url(#gradient);
 }
 .arrow-right path {
-    fill: url(#gradient);
+	fill: url(#gradient);
 }
